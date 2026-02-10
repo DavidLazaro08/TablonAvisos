@@ -5,7 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionBase {
-    private static final String URL = "jdbc:mysql://localhost:3306/tablon_avisos";
+   // Class.forName("come.mysql.cj.jdbc.Driver");
+    private static final String URL = "jdbc:mysql://localhost:3306/tablon_aviso";
     private static final String USER = "root";      // Cambiar según tu configuración
     private static final String PASSWORD = "";      // Cambiar según tu configuración
     private static Connection connection = null;
