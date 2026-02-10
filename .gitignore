@@ -4,6 +4,19 @@ out/
 !**/src/test/**/out/
 .kotlin
 
+# IntelliJ / IDEA
+.idea/
+*.iml
+
+# Build
+out/
+target/
+
+# Logs
+*.log
+
+# Conectores / libs copiadas
+mysql-connector-j-*/
 ### Eclipse ###
 .apt_generated
 .classpath
